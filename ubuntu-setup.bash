@@ -45,12 +45,22 @@ sudo snap refresh
 
 # sudo apt install python3-pip
 
+# sudo snap install pycharm-community --classic
+
 # pip3 install awscli --upgrade
 # sudo snap install aws-cli --classic
 
 # sudo apt install nodejs
 
 # sudo apt install npm
+
+##### Visual Studio Code
+# sudo apt update
+# sudo apt install software-properties-common apt-transport-https wget
+# wget -q https://packages.microsoft.com/keys/microsoft.asc -O- | sudo apt-key add -
+# sudo add-apt-repository "deb [arch=amd64] https://packages.microsoft.com/repos/vscode stable main"
+# sudo apt update
+# sudo apt install code
 
 ##### Low Level Configuration
 # AWS SAM CLI Installation
@@ -65,3 +75,9 @@ sudo snap refresh
 ##### Troubleshoot Issues
 # CA Certificate related issues
 # sudo apt-get install --reinstall ca-certificates
+
+# sudo snap install mailspring
+# sudo apt-get install putty-tools
+# sudo apt  install jq
+# sudo apt install maven
+sudo apt install filezilla
